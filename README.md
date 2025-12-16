@@ -41,7 +41,7 @@ Medical imaging datasets are often limited and suffer from inter-subject anatomi
 - Trained using K-Fold cross-validation
 
 ## 📊 Evaluation
-- Accuracy
+- Accuracy - 97%
 - Confusion Matrix
 - Classification Report
 - K-Fold validation results
