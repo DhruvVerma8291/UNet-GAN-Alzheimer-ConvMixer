@@ -22,3 +22,37 @@ Medical imaging datasets are often limited and suffer from inter-subject anatomi
 - Image Type: 2D MRI slices extracted from T1-weighted scans
 
 ## ⚙️ Pipeline
+
+## 🧪 Preprocessing
+- Linear (Affine) registration using MATLAB
+- Intensity normalization
+- Image resizing and cropping
+- Conversion to 2D slices
+
+## 🧬 GAN Architecture
+- Generator: U-Net
+- Discriminator: PatchGAN
+- Purpose: Generate realistic MRI slices for data augmentation
+
+## 🧠 ConvMixer Architecture
+- Patch-based convolutional architecture
+- Depthwise separable convolutions
+- Lightweight and computationally efficient
+- Trained using K-Fold cross-validation
+
+## 📊 Evaluation
+- Accuracy
+- Confusion Matrix
+- Classification Report
+- K-Fold validation results
+
+## 🚀 Technologies Used
+- Python
+- TensorFlow / Keras
+- MATLAB (Image Processing Toolbox)
+- NumPy, OpenCV, Matplotlib
+
+## 📌 Author
+Dhruv Verma  
+CSE (IoT) Honors
+
